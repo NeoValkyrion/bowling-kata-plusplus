@@ -51,7 +51,8 @@
       "src/**/*.{js,jsx}"
     ],
     "setupFiles": [
-      "<rootDir>/config/polyfills.js"
+      "<rootDir>/config/polyfills.js",
+      "<rootDir>/src/setupTests.js"
     ],
     "testMatch": [
       "<rootDir>/src/**/__tests__/**/*.js?(x)",
@@ -88,6 +89,7 @@
     "extends": "react-app"
   },
   "devDependencies": {
-    "enzyme": "^3.1.0"
+    "enzyme": "^3.1.0",
+    "enzyme-adapter-react-16": "^1.0.2"
   }
 }
